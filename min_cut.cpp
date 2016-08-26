@@ -19,7 +19,7 @@ void swap(int i,int j)
 int main(int argc, char* argv[])
 {
 	ifstream data;
-	data.open("kargerMinCut.txt");
+	data.open("kmc_data.txt");
 	int N = 200;
 	int N_ = N;
 	int Iter = 100;
